@@ -17,8 +17,8 @@ Caso não tenha o Node.js instalado, baixe em:
 ### 2️⃣ Clone este repositório:
 
 ```bash
-git clone https://github.com/GerlandioBernardo/Curso-Dev-Full-Stack-Jr.git
-cd Curso-Dev-Full-Stack-Jr
+git clone git@github.com:GerlandioBernardo/Curso-Dev-Full-Stack-Jr..git
+cd Curso-Dev-Full-Stack-Jr.
 cd Lista\ de\ Exercicio\ 2
 ```
 ### 3️⃣ Inicialize o projeto com o Node.js:
