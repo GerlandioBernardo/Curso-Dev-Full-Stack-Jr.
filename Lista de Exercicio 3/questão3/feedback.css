@@ -1,0 +1,63 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contanier{
+    background-color:rgb(66, 143, 143);
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(88, 88, 88);
+    height: auto;
+}
+.contanier h1{
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px white;
+}
+.contanier form label{
+    padding-left: 20px;
+    color: lightblue;
+}
+.contanier form input{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 300px;
+    height: 33px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.contanier form select{
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 7px 15px;
+}
+.contanier form textarea{
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 90px;
+    width: 307px;
+    border: none;
+    outline: none;
+}
+.contanier form button{
+    margin-left: 20px;
+    font-size: 17px;
+    padding: 10px 132px;
+    background-color:  cornflowerblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.contanier form button:hover{
+    background-color: rgb(18, 79, 194);
+    transform: translateY(-1.8px) scale(1.01);
+    box-shadow: 0px 1px 1px white;
+}

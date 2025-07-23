@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    max-width: 370px;
+    width: 100%;
+    padding: 12px 12px 0px 12px;
+}
+.imagemDescricao {
+    background-color: cadetblue;
+    max-width: 350px;
+    border-radius: 10px;
+}
+.descricao p {
+    font-size: 14px;
+    color: white;
+    padding: 0px 10px 10px 10px;
+    text-align: justify;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+@media (max-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr;
+    }
+    .imagemDescricao{
+        max-width: 320px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
