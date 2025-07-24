@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(4, 4, 87);
+    color: white;
+    border: 1.5px solid black;
+}
+
+header h1 {
+    text-align: center;
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+header p {
+    padding: 10px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: cadetblue;
+    color: beige;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+section p {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#importante {
+    border-top: 10px solid rgb(100, 3, 3);
+}
+
+.destaque {
+    font-style: italic;
+    background-color: rgba(51, 50, 50, 0.1);
+}
+
+.missao, .visao {
+    padding: 30px;
+    border: 2px solid gray;
+}
+
+.visao {
+    margin: 50px 20px;
+}
+
+.missao {
+    margin: 0px 20px 20px 20px;
+}
+
+footer {
+    background-color: rgb(5, 5, 46);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    border: 2px solid black;
+}
